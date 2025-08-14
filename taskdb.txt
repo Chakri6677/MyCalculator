@@ -1,0 +1,8 @@
+CREATE DATABASE taskdb;
+USE taskdb;
+
+CREATE TABLE tasks (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255),
+    status VARCHAR(50)
+);
